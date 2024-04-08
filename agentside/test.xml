@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="MyTest">
+        <classes>
+            <class name="agentside.signup"/>
+            <class name="agentside.signin"/>
+            <class name="agentside.changepassword"/>
+            <class name="agentside.Logout"/>
+            <class name="agentside.editprofile"/>
+            <class name="agentside.address"/>
+
+            <!-- Add more classes if needed -->
+        </classes>
+    </test>
+</suite>
